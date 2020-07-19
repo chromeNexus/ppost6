@@ -1,0 +1,60 @@
+{
+  "hostingType": "heroku",
+  "projectServerModel": "node",
+  "projectName": "pigeonpost6",
+  "herokuProjectID": "devpigeonpost",
+  "gitURL": "https://github.com/chromeNexus/ppost6.git",
+  "projectType": "web",
+  "npmInstall": true,
+  "designFramework": "bootstrap4",
+  "useRouting": true,
+  "addBase": true,
+  "routingHandler": "node",
+  "styleFile": "/bootstrap4",
+  "assetsFolder": "/assets",
+  "targets": [
+    {
+      "targetType": "heroku",
+      "usage": "stage",
+      "name": "ppost6staging",
+      "herokuProjectID": "devpigeonpost",
+      "remoteURL": "https://devpigeonpost.herokuapp.com"
+    },
+    {
+      "targetType": "heroku",
+      "name": "ppostDev",
+      "herokuProjectID": "devpigeonpost",
+      "remoteURL": "https://devpigeonpost.herokuapp.com"
+    },
+    {
+      "targetType": "heroku",
+      "usage": "production",
+      "name": "ppostProduction",
+      "herokuProjectID": "devpigeonpost",
+      "remoteURL": "https://snkrave.com"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "appConnect",
+      "type": "local"
+    },
+    {
+      "name": "jquery_slim_34",
+      "type": "local"
+    },
+    {
+      "name": "bootstrap4",
+      "type": "local"
+    },
+    {
+      "name": "fontawesome_5",
+      "type": "local"
+    },
+    {
+      "name": "moment_2",
+      "type": "cdn with locales"
+    }
+  ],
+  "activeTarget": "ppostProduction"
+}
