@@ -31,7 +31,7 @@
       "usage": "production",
       "name": "ppostProduction",
       "herokuProjectID": "devpigeonpost",
-      "remoteURL": "https://snkrave.com"
+      "remoteURL": "https://devpigeonpost.herokuapp.com/"
     }
   ],
   "frameworks": [
